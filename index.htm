@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+<head>
+	<title>Form </title>
+
+</head>
+<body bgcolor="#FFE4E1">
+
+<form action="/action_page.php">
+
+<fieldset>
+   <legend>Personal information:</legend>
+
+   <!-- Edit Text -->
+  First name:<br>
+  <input type="text" name="firstname">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname">
+  <br><br>
+  
+  <!-- radio button -->
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other <br> <br>
+
+  <!-- Drop Dwon manu -->
+  <select name="Marital Status">
+  <option value="volvo">Single</option>
+  <option value="saab">Married</option>
+  <option value="fiat">Divorced</option>
+  </select> <br><br>
+
+  <input type="submit" value="Submit" onclick="alert('form')">
+
+  </form> 
+
+</fieldset>  
+
+
+
+
+</body>
+</html>
